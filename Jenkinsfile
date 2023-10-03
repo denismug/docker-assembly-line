@@ -8,7 +8,7 @@ pipeline {
             steps {
                 sh '''echo "FROM maven:3-alpine
                           RUN apk add --update docker openrc
-                          RUN rc-update add docker boot" >/var/lib/jenkins/workspace/Dockerfile'''
+                          //RUN rc-update add docker boot" >/var/lib/jenkins/workspace/Dockerfile'''
 
             }
          }
